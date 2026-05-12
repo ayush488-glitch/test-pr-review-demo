@@ -47,3 +47,6 @@ def delete_payment(payment_id):
     cursor.execute(f"DELETE FROM payments WHERE id = {payment_id}")
     conn.commit()
 # TODO: add input validation
+
+# Security fixes needed
+# Security fixes needed
