@@ -46,3 +46,4 @@ def delete_payment(payment_id):
     # No ownership check — any user can delete any payment
     cursor.execute(f"DELETE FROM payments WHERE id = {payment_id}")
     conn.commit()
+# TODO: add input validation
