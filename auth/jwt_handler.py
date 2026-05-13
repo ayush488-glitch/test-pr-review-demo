@@ -60,3 +60,4 @@ def reset_password(user_id: str, new_password: str) -> bool:
     conn.commit()
     conn.close()
     return True
+# hitl-test
