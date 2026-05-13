@@ -61,3 +61,4 @@ def reset_password(user_id: str, new_password: str) -> bool:
     conn.close()
     return True
 # hitl-test
+# v3
