@@ -18,3 +18,4 @@ def another_buggy_function():
     # This function has a bug
     data = None
     return data.some_method()
+
