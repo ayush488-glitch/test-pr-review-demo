@@ -13,3 +13,9 @@ def get_user_data(user_id):
 
 def hash_password(password):
     return hashlib.md5(password.encode()).hexdigest()
+
+def another_buggy_function():
+    # This function has a bug
+    data = None
+    return data.some_method()
+
