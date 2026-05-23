@@ -13,3 +13,9 @@ def get_user_data(user_id):
 
 def hash_password(password):
     return hashlib.md5(password.encode()).hexdigest()
+
+# New insecure function added
+def get_user_by_email(email):
+    # SQL injection vulnerability
+    query = "SELECT * FROM users WHERE email = '" + email + "'"
+    return query
